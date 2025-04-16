@@ -123,27 +123,22 @@ The UI is enhanced with ASCII art titles for each section, making the tool visua
 ### Running the Script
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/yourusername/carding-tool.git
+   git clone https://github.com/walterwhite-69/Carding-tools
    cd carding-tool
    ```
 2. Place the `bin-list-data.csv` file in the same directory as `carding_tool.py`. This file should contain the BIN database with columns: `BIN`, `Brand`, `Type`, `Category`, `Issuer`, `IssuerPhone`, `IssuerUrl`, `isoCode2`, `isoCode3`, `CountryName`.
 3. Run the script:
    ```bash
-   python carding_tool.py
+    carding_tool.exe
    ```
    - The first run will load data from `bin-list-data.csv` and create `bin_data.pkl` for faster loading in future runs.
 
 ### Creating a Standalone EXE
-To create a standalone EXE file that includes the script and its dependencies:
-1. Install `PyInstaller`:
-   ```bash
-   pip install pyinstaller
-   ```
-2. Run the script once to generate `bin_data.pkl`:
+1. Run the script once to generate `bin_data.pkl`:
    ```bash
    python carding_tool.py
    ```
-3. Convert the script to an EXE:
+2. Convert the script to an EXE:
    - On **Windows**:
      ```bash
      pyinstaller --onefile --add-data "bin-list-data.csv;." --add-data "bin_data.pkl;." carding_tool.py
