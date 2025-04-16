@@ -263,4 +263,4 @@ For questions, suggestions, or support, feel free to reach out:
 - **Discord**: Join our community at [discord.gg/rgWcEw5G8a](https://discord.gg/rgWcEw5G8a)
 - **Author**: Walter
 
-Happy carding (ethically)! 🚀
+Happy carding (ethically)! 🚀v
