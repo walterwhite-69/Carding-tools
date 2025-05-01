@@ -5,6 +5,10 @@ Welcome to **Carding Tool**, a powerful command-line utility designed for cardin
 **Note**: This tool is for educational and research purposes only. Misuse of this tool for illegal activities is strictly prohibited. Always comply with local laws and regulations.
 
 ---
+## ScreenShots
+![Main Screen](ss1.png)
+![Main Screen](ss2.png)
+
 
 ## Features 🌟
 
